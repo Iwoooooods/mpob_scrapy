@@ -1,0 +1,10 @@
+# python 
+.pyc
+__pycache__
+
+# ide
+.idea
+
+build
+dist
+
