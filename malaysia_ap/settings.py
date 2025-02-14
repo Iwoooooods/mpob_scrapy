@@ -16,20 +16,20 @@ NEWSPIDER_MODULE = 'malaysia_ap.spiders'
 
 TEMP_DATA_DIR = 'temp'
 # dev
-DATABASE_URI = 'stg/stg123@10.10.50.17:1534/db'
+DATABASE_URI = 'user/password@localhost:1521/dbname'
 # prod
-# DATABASE_URI = 'stg/stg123@findata.kffund.cn:1534/db'
+# DATABASE_URI = 'user/password@localhost:1521/dbname'
 FTP_SETTINGS = {
-    'HOST': '192.168.8.234',
+    'HOST': 'ftp.example.com',
     'PORT': 21,
-    'USERNAME': 'ftp4dce',
-    'PASSWORD': 'DCEftp123',
+    'USERNAME': 'ftpuser',
+    'PASSWORD': 'ftppassword',
     'BASE_DIR': '/IndustDataCollection/AP/MPOB'
 }
 
 # MPOB Login credentials
-MPOB_USERNAME = 'kfagri'
-MPOB_PASSWORD = 'KFfund2025'
+MPOB_USERNAME = 'mpobuser'
+MPOB_PASSWORD = 'mpobpassword'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'Malaysia_ap (+http://www.yourdomain.com)'
