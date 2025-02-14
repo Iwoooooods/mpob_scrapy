@@ -1,0 +1,6 @@
+scrapy
+scrapyd-client
+requests
+pandas==0.24.2
+beautifulsoup4==4.9.3
+html5lib==1.1

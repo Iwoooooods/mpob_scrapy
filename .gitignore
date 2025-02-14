@@ -1,5 +1,5 @@
 # python 
-.pyc
+*.pyc
 __pycache__
 
 # ide
@@ -7,4 +7,4 @@ __pycache__
 
 build
 dist
-
+temp

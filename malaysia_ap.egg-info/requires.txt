@@ -1,0 +1,6 @@
+mysql-python
+cx_Oracle
+scrapy
+pandas
+beautifulsoup4
+html5lib
